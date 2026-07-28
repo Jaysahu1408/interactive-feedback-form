@@ -37,7 +37,3 @@ interactive-feedback-form/
 ## Author
 
 **Jay Sahu**
-
-## Author
-
-**Jay Sahu**
