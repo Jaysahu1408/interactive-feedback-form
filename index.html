@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Feedback Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <form id="feedbackForm">
+
+            <h2>Feedback Form</h2>
+
+            <div class="input-group">
+                <label>Name</label>
+                <input type="text" id="name">
+
+                <small class="error" id="nameError"></small>
+            </div>
+
+            <div class="input-group">
+                <label>Email</label>
+                <input type="email" id="email">
+
+                <small class="error" id="emailError"></small>
+            </div>
+
+            <div class="input-group">
+                <label>Feedback</label>
+
+                <textarea id="feedback" rows="5"></textarea>
+
+                <small class="error" id="feedbackError"></small>
+            </div>
+
+            <button type="submit">Submit Feedback</button>
+
+            <p id="successMessage"></p>
+
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
